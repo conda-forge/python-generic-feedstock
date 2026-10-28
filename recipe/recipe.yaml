@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-generic
-  version: "1.1.7"
+  version: "1.1.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/generic/generic-${{ version }}.tar.gz
-  sha256: d14dae6628542eb084434588d350756c88f2f30c7e2348ad5fcfa01fbdb7ceed
+  sha256: 097d96d2cadef3d8e2996f3ef3f58ad304b5fb0dc6c15338c317561ff0bba493
 
 build:
   number: 0
